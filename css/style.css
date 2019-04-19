@@ -15,7 +15,7 @@ body {
     font-size: 30px;
     letter-spacing: 10px;
     text-transform: uppercase;
-    justify-content: center;
+
 }
 
 .sub{
@@ -23,13 +23,13 @@ body {
     color: rgb(150, 160, 160);
     font-size: 20px;
     margin-bottom: 30px;
-    justify-content: center;
+
 }
 
 .links{
     text-decoration: none;
-    margin-right: 20px;
-    justify-content: center;
+    margin: 15px;
+    
 }
 
 #link_home{
@@ -41,7 +41,7 @@ body {
     text-decoration: none;
     padding: 10px;
     font-weight: 666;
-    justify-content: center;
+    
 }
 #link_home:hover{
     font-size: 20px;
@@ -51,9 +51,9 @@ body {
     background-color: white;
     text-decoration: none;
     padding: 10px;
-    justify-content: center;
+    
 }
 
 .content{
-    justify-content: center;
+    justify-items: center;
 }
