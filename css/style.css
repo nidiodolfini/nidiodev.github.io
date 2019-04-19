@@ -55,5 +55,6 @@ body {
 }
 
 .content{
+    text-align: center;
     justify-items: center;
 }
