@@ -2,6 +2,6 @@
 
 Tentarei fazer usando **HTML, CSS e Javascript** 
 
-aprendi pra que server o arquivo .md rs (12/05/2019)
+aprendi pra que server o arquivo README.md rs (12/05/2019)
 
 
