@@ -29,6 +29,10 @@ body {
     margin: 15px;
 }
 
+.links:hover{
+    filter: invert(1);
+}
+
 #link_home {
     font-size: 20px;
     color: white;
