@@ -10,13 +10,6 @@ body {
     flex-flow: column;
 }
 
-.nome {
-    font-weight: 800;
-    font-size: 30px;
-    letter-spacing: 10px;
-    text-transform: uppercase;
-}
-
 .sub {
     font-family: Arial, Helvetica, sans-serif;
     color: rgb(150, 160, 160);
@@ -24,11 +17,23 @@ body {
     margin-bottom: 30px;
 }
 
-.links {
+#link_home {
+    font-size: 20px;
+    color: white;
+    width: 100px;
+    height: 20px;
+    background-color: #666;
     text-decoration: none;
-    margin: 15px;
+    padding: 10px;
+    font-weight: 666;
 }
 
-.links:hover{
-    filter: invert(1);
+#link_home:hover {
+    font-size: 20px;
+    color: #666;
+    width: 100px;
+    height: 20px;
+    background-color: white;
+    text-decoration: none;
+    padding: 10px;
 }
