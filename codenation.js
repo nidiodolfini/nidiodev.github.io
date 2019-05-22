@@ -35,7 +35,7 @@ function converter() {
         
 }
 */
-
+/*
 var xhr = new XMLHttpRequest();
 var url = "https://api.codenation.dev/v1/challenge/dev-ps/submit-solution?token=51504c327b3f44927c9f12fa7536e4b620c28f08";
 xhr.open("POST", url, true);
@@ -45,7 +45,7 @@ xhr.onreadystatechange = function () {
         var json = JSON.parse(xhr.responseText);
         
     }
-};
+};*/
 var data = JSON.stringify({
             "numero_casas": 1,
             "token": "51504c327b3f44927c9f12fa7536e4b620c28f08",
@@ -54,4 +54,4 @@ var data = JSON.stringify({
             "resumo_criptografico": "756e22eb3291739e3be8f2beac0e1820d1f1854d"});
 
             
-            xhr.send(data);
+            //xhr.send(data);
