@@ -2,32 +2,28 @@ var requestURL = "https://api.codenation.dev/v1/challenge/dev-ps/generate-data?t
 
 var frase = "";
 var resumo = "";
-var out;
+var saidaJSON;
 
 function converter() {
 
     fetch(requestURL)
         .then(res => res.json())
-        .then((out) => {
-            let numero_casas = out.numero_casas;
-            console.log(numero_casas)
-            let b = [];
-            b = out.cifrado;
+        .then((saidaJSON) => {
+            let numero_casas = saidaJSON.numero_casas;
+            let caracteresFrase = [];
+            caracteresFrase = saidaJSON.cifrado;
 
-            for (var i = 0; i < b.length; i++) {
-                var code = b.charCodeAt(i)
+            for (var i = 0; i < caracteresFrase.length; i++) {
+                var codigoDosCaracteres = caracteresFrase.charCodeAt(i)
 
-                if (code == 32 || code == 33) {
-                    frase += (String.fromCharCode(code))
+                if (codigoDosCaracteres == 32 || codigoDosCaracteres == 33) {
+                    frase += (String.fromCharCode(codigoDosCaracteres))
                     //resumo += (String)
                 } else {
-                    frase += (String.fromCharCode(code - numero_casas))
+                    frase += (String.fromCharCode(codigoDosCaracteres - numero_casas))
                 }
 
             }
             console.log(frase)
-
-
         }).catch(err => console.error(err));
-
 }
