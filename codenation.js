@@ -18,8 +18,7 @@ function converter() {
 
                 if (codigoDosCaracteres == 32 || codigoDosCaracteres == 33) {
                     frase += (String.fromCharCode(codigoDosCaracteres))
-                    //resumo += (String)
-                } else {
+            } else {
                     frase += (String.fromCharCode(codigoDosCaracteres - numero_casas))
                 }
 
