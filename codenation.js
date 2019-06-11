@@ -5,7 +5,7 @@ var resumo = "";
 var saidaJSON;
 
 function converter() {
-
+    console.log(requestURL)
     fetch(requestURL)
         .then(res => res.json())
         .then((saidaJSON) => {
